@@ -1,0 +1,136 @@
+
+body{   
+    background-attachment: fixed;
+    background-position: top;
+    background-image: url("../imagenes/LIBROST.jpg");
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+    background-size: cover;
+   
+}
+header{
+
+   border: 2px solid black;
+  height: 80px;
+   background-color: #416569;
+   align-items: center;
+}
+.logo a h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+.logo a{
+    text-decoration: none;
+}
+
+.tex_item a{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.items{
+    list-style: none;
+    
+    
+}
+.items a img{
+    width: 50px;
+    height: 50px;
+}
+.listas{
+    list-style: none;
+    margin-left: 250px;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 10em;
+}
+.encavezado{
+    display: flex;
+}
+.sugerencias{
+    margin-left: 50%;
+}
+.contenedor_dos{
+    margin-top: 30px;
+    background-image: url("../imagenes/paisaje_carrretera.jpg");
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin-left: 150px;
+    clip-path: polygon(0 60%, 0 0, 100% 0, 100% 60%, 50% 100%);
+    padding: 20px;
+}
+.subtitulo{
+    color: #01152e;
+    font-size: 35px;
+    margin: 20px;
+    margin-top: 10px;
+    
+}
+.libro_inicio{
+    border:3px solid #01152e56;
+    width: 150px;
+    height: 230px;
+    margin-left: 40%;
+    padding: 5px;
+}
+.libro a{
+    color: black;
+    margin-left: 40%;
+    margin-top: -20%;
+    text-decoration: none;
+}
+.pie{
+    background: #01152e;
+    color: white;
+    width: 120%;
+    height: 190px;
+    margin-left: -10%;
+}
+.linea{
+    width: 20px;
+    background: none;
+    background-color: none;
+    color: none;
+}
+.creditos{
+    margin-left: 150px;
+    color: #6e7988;
+}
+.consultas .listas{
+    margin-left: 230px;
+    list-style: none;
+
+}
+.consultas{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: -20em;
+}
+.listas a{
+    color: #6e7988;
+    text-decoration: none;
+
+}
+.redes{
+    margin-left: 130px;
+   margin-top: 40px;
+}
+.aps{
+    
+    display: grid;
+    grid-auto-flow:column ;
+    grid-auto-columns:max-content ;
+    gap: 10px;
+    
+}
+.sociales{
+    list-style: none;
+    
+}

@@ -1,0 +1,63 @@
+body{   
+    background-attachment: fixed;
+    background-position: top;
+   background: #6e7988;;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+    background-size: cover;
+   
+}
+.uno{
+    width: 1000px;
+    background: white;;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:max-content ;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.uno img{
+    width: 130px;
+}
+.abitos a img{
+    width: 30px;
+}
+
+.dos{
+    width: 1000px;
+    background: white;;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:max-content ;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.dos img{
+    width: 130px;
+}
+.agustin a img{
+    width: 30px;
+}
+
+.tres{
+    width: 1000px;
+    background: white;;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:max-content ;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.tres img{
+    width: 130px;
+}
+.huascar a img{
+    width: 30px;
+}
+.contenedor{
+    margin-left: 10%;
+}
+

@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+   
+    background-image: url("../imagenes/LIBROST.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.todo{
+    width: 800px;
+    
+    height: 400px;
+    text-align: center;
+    padding:50px ;
+    transform: translate(23%,0%);
+    position: relative;
+   
+}
+.titulo{
+    padding: 60px;
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#a1bfc2;
+}
+.titulo p{
+    color: #ffffff;
+}
+.botom button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: 3px solid white;
+    background-color: #416569;
+    margin: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pie-de-pagina{
+    text-align: center;
+}
+.pie-de-pagina a{
+    margin-left: 30px;
+    color: rgb(128, 128, 128);
+}
